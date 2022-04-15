@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MINdos.exe" version="1.0.0.0" publicKeyToken="392a32657e709506" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MINdos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MINdos.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo dell'account utente
+          Se si vuole modificare il livello di Controllo dell'account utente di Windows, sostituire il
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MINdos.exe" size="659400">
+      <assemblyIdentity name="MINdos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ocoogL/1qAHVR0yBvTaa4KPuwEpgAMHhg4waX7qeArc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MINdos.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rO4mjoMPTzC1RdE+BMvf0lfywGmtOsKfE96n+SRa584=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JUSTINPC-11\lopog" issuerKeyHash="481d49502032824551cbdbb5eacc6d8f3cf936d2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wTJy420EibQo8W/Q+ZWr0eiTeUfne7GEfNEhFOyQY6U=</DigestValue></Reference></SignedInfo><SignatureValue>Jsvwv+oimtAV4wUdNsC80qCqlBmSJOEktNX6laCb8RDHb3TujJhBCv55D2ouVXobB1CAKMzt0p2IIhgesbbHqoASEKwy7+Cgl9i1tTE4OpeUolHFZqTfgp39F5zDpubwCZWI3zAIXJCMd/rhZRq/ijarDOrtBwipQ6Lz1orvfoE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sWOI6wrBotJDM1GD6VJYmjfi+sdZGo/a4zocfY3rj1iNBnuxFohQl7XeLiJpT8AWTT5z5U7FyEcHGEfAyf4j9WuQ/dBODgcXfaPu9ICx9qiccBdN+XSxCsuFGJZIVJ5CsWhIqwwS5hiDaLL2oLPXBHXZVafecR8Zlg5D9cAk4P0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a56390ec1421d17c84b17be7477993e8d1ab95f9d06ff128b489046de37232c1" Description="" Url=""><as:assemblyIdentity name="MINdos.exe" version="1.0.0.0" publicKeyToken="392a32657e709506" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JUSTINPC-11\lopog</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RezsjWSiXll5g9EdAFQ66NpjUvD13P4ip3Q5+6hEStU=</DigestValue></Reference></SignedInfo><SignatureValue>mI9H3tZJy7HYQEONzQVyNUZUXGP89if9vZH0aLin2MIn3i3LNEHqOo6yRj0/PJEGnbYCibjeIWM0wlYT20CUmQkPZR74JCEsmpaVcO98OL231AXocAyhCxiCxM0jByt0k10RtqkjTrTf79nLOgSm/lUFUOjQVwA8EEXYrxn4KHA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sWOI6wrBotJDM1GD6VJYmjfi+sdZGo/a4zocfY3rj1iNBnuxFohQl7XeLiJpT8AWTT5z5U7FyEcHGEfAyf4j9WuQ/dBODgcXfaPu9ICx9qiccBdN+XSxCsuFGJZIVJ5CsWhIqwwS5hiDaLL2oLPXBHXZVafecR8Zlg5D9cAk4P0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQTXxO9WXtIINJDOfJqnU5NTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIASgBVAFMAVABJAE4AUABDAC0AMQAxAFwAbABvAHAAbwBnMB4XDTIyMDIwNDIyNTkyMVoXDTIzMDIwNTA0NTkyMVowLTErMCkGA1UEAx4iAEoAVQBTAFQASQBOAFAAQwAtADEAMQBcAGwAbwBwAG8AZzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsWOI6wrBotJDM1GD6VJYmjfi+sdZGo/a4zocfY3rj1iNBnuxFohQl7XeLiJpT8AWTT5z5U7FyEcHGEfAyf4j9WuQ/dBODgcXfaPu9ICx9qiccBdN+XSxCsuFGJZIVJ5CsWhIqwwS5hiDaLL2oLPXBHXZVafecR8Zlg5D9cAk4P0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCvFvXVeWhOXG5Jhvk58c5aXD5Qsjz7ijSd9dtYwR0vFL2wTVHaIadXaAlexrQbCY1Rnnvj5Tgo6b3QLnLeKoldpSon/XHTC3UudaITojYdRPDprJoKG3p4VETVNirZ+4D/vpoLGtF9zsThg14O5Cqj5eYAQGWBdkEguFtX13RzHQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
